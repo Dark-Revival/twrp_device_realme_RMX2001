@@ -1,21 +1,26 @@
 #
-# Copyright (C) 2019 Potato Open Sauce Project
+#	This file is part of the OrangeFox Recovery Project
+# 	Copyright (C) 2020-2021 The OrangeFox Recovery Project
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+#	OrangeFox is free software: you can redistribute it and/or modify
+#	it under the terms of the GNU General Public License as published by
+#	the Free Software Foundation, either version 3 of the License, or
+#	any later version.
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#	OrangeFox is distributed in the hope that it will be useful,
+#	but WITHOUT ANY WARRANTY; without even the implied warranty of
+#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#	GNU General Public License for more details.
 #
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# 	This software is released under GPL version 3 or any later version.
+#	See <http://www.gnu.org/licenses/>.
+#
+# 	Please maintain this if you use this script or any part of it
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_RMX2001.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_RMX2001.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_RMX2001-eng
+                twrp_RMX2001-eng \
+                twrp_RMX2001-user \
+                twrp_RMX2001-userdebug
