@@ -13,3 +13,5 @@ Battery | 4300 mAh
 Display | 6.5' 1080 x 2400 pixels            
 Camera Back  | 64+8+2+2 MP                  
 Camera Front | 16 MP
+
+![Realme 6](https://fdn2.gsmarena.com/vv/pics/realme/realme-6-2.jpg "Realme 6")
