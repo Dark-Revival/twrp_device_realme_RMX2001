@@ -59,9 +59,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_FL_PATH2=""
 	export OF_FLASHLIGHT_ENABLE=1
 	export OF_MAINTAINER="ShadowXD"
-	export OF_TARGET_DEVICES="RMX2001, RMX2002, RMX2003, RMX2151, wasabi"
-	export TARGET_DEVICE_ALT="RMX2001, RMX2151, wasabi"
-
+	
 	# Some Extra Vars
 	export FOX_USE_XZ_UTILS=1
 	export FOX_USE_GREP_BINARY=1
