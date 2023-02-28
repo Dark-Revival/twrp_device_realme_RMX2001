@@ -48,7 +48,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 	export OF_PATCH_AVB20=1
-  export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/by-name/recovery"
+        export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/by-name/recovery"
 
 	# Some device specific flags
 	export OF_STATUS_H="102"
