@@ -36,7 +36,6 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Configure some default settings for the build
-	export ALLOW_MISSING_DEPENDENCIES=true
 	export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
 	export OF_VANILLA_BUILD=1
 	export OF_SKIP_ORANGEFOX_PROCESS=1
